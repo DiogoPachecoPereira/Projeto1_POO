@@ -1,5 +1,5 @@
 
-package calculo_juros;
+package br.com.fatecpg.web;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 
-@WebServlet(name = "JurosSimples", urlPatterns = {"/calcjurossimples.php"})
+@WebServlet(name = "JurosSimples", urlPatterns = {"/juros-simples"})
 public class JurosSimples extends HttpServlet {
 
     
